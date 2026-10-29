@@ -1,0 +1,402 @@
+
+   
+
+
+
+
+   body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+
+   }
+   .firstpage{
+    background-image: url(../imges/backgroundimage.png);
+    
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+   }
+   .secondpage{
+    background-color:black;
+    
+   }
+
+.headercontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #17231f;
+    box-sizing: border-box;
+     
+}
+.logocontainer h4{
+    color: white;
+}
+.logocontainer img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+
+
+}
+.logocontainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0px;
+    padding: 15px 25px;
+}
+.navbar ul{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    
+    
+}
+.textcontainer h4{
+    color: white;
+}
+.navbar ul a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.navbar{
+    margin-right: 20px;
+}
+.navbar .togglebutton span{
+    width: 2rem;
+    border: 1px solid grey;
+    margin: 0.3rem;
+    display: block;
+
+}
+.textcontainer h1{
+    color: white;
+    font-weight: bold;
+    font-size:50px;
+    
+    
+}
+.textcontainer .exploring{
+    margin-top: 0;
+
+    color:orange
+}
+.buttoncontainer button{
+    color: black;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 12px 25px;
+    font-weight: bold;
+}
+.buttoncontainer button:hover{
+    background-color: #e6b800;
+}
+.buttoncontainer{
+    text-align: center;
+    margin-top: 20px;
+}
+.navbar a:hover{
+    color: orange}
+    
+/* Parent: arranges all three destination cards */
+.adventurecontainer {
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 15px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/* Adventure Tour heading spans the entire row */
+.aventuretourcontainer {
+    grid-column: 1 / -1;
+    }
+
+/* Each individual destination card */
+.adventurecontainer .adventureboxcontainer {
+    background-color: #222a32;
+    color: hsl(0, 0%, 90%);
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 15px;
+    min-width: 0;
+    box-sizing: border-box;
+}
+    
+    
+    
+    
+.aventuretourcontainer a{
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 93%);
+    text-decoration: none;
+    font-variant: small-caps;
+    font-weight: 700;
+}   
+    
+
+
+.adventurecontainer .adventureboxcontainer .adventureimagecontainer img{
+
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    align-items: center;
+}
+.adventurereadmorecontainer a{
+    font-size: 1rem;
+    border: 1px solid hsla(0, 0%, 0%, 0.6);
+
+    text-decoration: none;
+    text-transform: capitalize;
+    width: fit-content;
+    background-color: hsla(48, 100%, 45%, 0.3);
+    color: hsl(39, 100%, 50%);
+    padding: 10px 17px;
+    border-radius: 22px;
+    align-items: center;
+
+
+}
+
+
+.popularpackegecontainer{
+    background-color:  #17231f;;
+    margin: 0;
+    box-sizing: border-box;
+    
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 1rem;
+    padding: 3rem;
+    width: 100%;
+    border-spacing: 2px;
+
+
+
+}
+.popularpackegecontainer h2{
+    color: orange;
+
+
+}
+ .form. heading .writemessagecontaine{
+    width: 600px;
+    height: 300px;
+    border-radius: 1px solid #444;
+    resize: vertical;
+ }
+
+
+
+    
+.popularpackage h1{
+    color: white;
+    font-weight: 700;
+    margin-bottom: 10px;
+    
+}
+.balemountaintourbox img{
+
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+.omotribtourbox img{
+    
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+
+}
+.Harartourbox img{
+    
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+
+}
+.specialomotourbox img{
+    
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+
+}
+.baletrekingtour img{
+    
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+
+}
+.gondertourbox img{
+    border-radius: 5px;
+    
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+
+
+}
+
+.popularpackegecontainer p{
+color: white;
+}
+.form{
+    background-color: 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    gap: 20px;
+    
+}
+.writemessagecontainer .textarea{
+    padding:  100px;
+    
+
+    
+    
+    
+}
+.form .sendmessage .button{
+    border-radius: 15px;
+    padding: 13px;
+    background-color: orange;
+    
+
+}   .footer{
+        background-color: #222a32;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 30px;
+        align-items: center
+        
+
+    }
+    .contact p{
+        color:white;
+
+    }
+     .heading{
+        color: whitesmoke;
+        text-align: center;
+     }
+     .footertext p{
+        color: whitesmoke;
+        margin-left: 15px;
+    }
+    .footerbox .titlecontainer h3{
+        align-items: baseline;
+        color: orange;
+
+    }
+    .lists li {
+        text-decoration: none;
+        list-style-type: none;
+        color: white;
+    }
+    .lists li a{
+        text-decoration: none;
+        color: white;
+    }
+    .gondertourbox h2{
+        color: orange;
+    }
+    .contact us h1{
+        color: white;
+        text-align: center;
+        font-size: 40;
+
+    }
+    .contactuscontainer1 input{
+        padding: 12px;
+        background-color:#222a32;
+        border: none;
+
+    }
+.writemessagecontainer textarea{
+    width: 400px;
+    height: 300px;
+   background-color : #222a32;
+}
+.contactuscontainer2 input{
+    padding: 12px;
+    background-color: #17231f;
+    border: none;
+
+}
+.footertext p{
+    text-align: center;
+    margin-left: 8px;
+}
+.togglebutton{
+    display: none; 
+
+}
+
+@media(max-width:630px){
+    .togglebutton{
+        display: block;
+
+    }
+    .navbar .submenubar{
+        display: none;
+
+    }
+    .navbar:hover .submenubar{
+        display: block;
+        position: absolute;
+        right: 0rem;
+
+
+    }
+    .navbar:hover ul li a{
+        text-decoration: none;
+        
+
+
+        
+
+    }
+    .navbar:hover ul{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .adventurecontainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .popularpackegecontainer{
+        display: flex;
+         flex-direction: column;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact form{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

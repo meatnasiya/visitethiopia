@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    background-image: url(../imges/backgroundimage.png);
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logocontainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+}
+.logocontainer img{
+    width: 30px;
+    height: 30px;
+    margin-top: 2px;
+    flex: start;
+    
+
+}
+.navcontainer{
+    text-decoration: none;
+    align-items: center;
+    justify-content:space-between ;
+    gap: 3px;
+}
+.buttoncontainer{
+    align-items: center;
+    border-radius: 25px;
+    padding: ;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: blueviolet;
+    padding: 25px 15px;
+    border-left: 60px;
+    gap: 5rem;
+    justify-content: space-between;
+    align-items:center ;
+    justify-content: center;
+}
